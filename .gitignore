@@ -1,0 +1,23 @@
+# Data is downloaded by script and never committed (see CLAUDE.md, Privacy).
+data/
+outputs/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.dcm
+*.rar
+*.zip
+*.pt
+*.pth
+*.ckpt
+!docs/figures/*.png
+
+__pycache__/
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
